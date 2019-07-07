@@ -166,7 +166,7 @@ class PasienController extends Controller
         $form->select('pendidikan_id', 'Pendidikan')->options($pendidikan);;
         $form->select('status_perkawinan_id', 'Status Perkawinan')->options($status_perkawinan);;
         $form->select('agama_id', 'Agama')->options($agama);;
-        $form->datetime('tgl_pemeriksaan', 'Tgl pemeriksaan')->default(date('Y-m-d H:i:s'));
+        $form->datetime('tgl_pemeriksaan', 'Tgl Pemeriksaan')->default(date('Y-m-d H:i:s'));
 
         return $form;
     }
