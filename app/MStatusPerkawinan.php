@@ -13,4 +13,5 @@ class MStatusPerkawinan extends Model
     protected $fillable = [
         "status_perkawinan",
       ];
+
 }

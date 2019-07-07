@@ -13,4 +13,5 @@ class MPekerjaan extends Model
     protected $fillable = [
         "pekerjaan",
       ];
+
 }
